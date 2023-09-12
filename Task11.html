@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERN_Task_11</title>
+    <style>
+        img{
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+        }
+        .image1{
+            margin-left:40%;
+        }
+        .form{
+            margin-left: 30%;
+            margin-top: 20px;
+        }
+        .form input[type="text"],input[type="password"],input[type="submit"]{
+            width:70%;
+        }
+        input[type="submit"]{
+            background-color: green;
+            border-style: none;
+            padding: 5px;
+            margin-bottom: 5px;
+            color: aliceblue;
+        }
+        .form-foot{
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            background-color: rgb(142, 133, 133);
+            margin-top: 5px;
+        }
+        button{
+            background-color: red;
+            border-style: none;
+            color: aliceblue;
+            padding: 3px 10px;
+            border-radius: 4px;
+            margin: 5px;;
+        }
+        .form-foot a{
+            color: black;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Task 6</h2>
+    <div class="image1">
+        <img src="https://www.pngitem.com/pimgs/m/226-2260470_transparent-admin-icon-png-admin-logo-png-png.png" alt="admin logo">
+    </div>
+    <div class="form">
+        
+        <form action="">
+            <label for="username"><b>Username</b></label><br>
+            <input type="text" id="username" placeholder="Enter Username"><br><br>
+            <label for="password"><b>Password</b></label><br>
+            <input type="password" id="password" placeholder="Enter Password"><br><br>
+            <input type="submit" value="Login"><br>
+            <input type="checkbox" id="remember"><label for="remember">Remember me</label>
+            <div class="form-foot">
+                <button>Cancel</button>
+                <p>Forgot <a href="#">password?</a></p>
+            </div>
+    
+        </form>
+    </div>
+    
+    
+</body>
+</html>
